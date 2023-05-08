@@ -1,0 +1,56 @@
+.skill-block-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 12.5%;
+  width: 100%;
+
+  .remove-overlay {
+    position: absolute;
+    visibility: hidden;
+    width: 100%;
+    height: 10%;
+    background: rgba(0, 0, 0, 0.75);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skill-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+    width: 80%;
+
+    .left-side {
+      .title {
+        font-size: 30px;
+      }
+
+      .text-space-container {
+        width: 80%;
+
+        .text {
+
+        }
+      }
+
+    }
+
+    .right-side {
+      width: 60%;
+
+      .text-space-container {
+        width: 80%;
+
+        .text {
+
+        }
+      }
+    }
+  }
+}
+
+

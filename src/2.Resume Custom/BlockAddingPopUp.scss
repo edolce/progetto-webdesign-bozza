@@ -1,0 +1,77 @@
+.block-adding-popup{
+  position: absolute;
+  top: 0;
+  width: 70%;
+  height: 70%;
+  margin: 7% 15% 15%;
+  background: #00e3b1;
+
+  .close-button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    border: #7a7a7a 2px solid;
+    background: #850001;
+    color: black;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    span{
+      transform: translateY(-9%)
+    }
+  }
+  .close-button:hover{
+    background: #ff0000;
+  }
+
+  .block-adding-popup-content{
+    width: 100%;
+    height: 100%;
+    overflow-y:auto;
+
+    .skill-to-insert{
+      height: 100px;
+        width: 90%;
+        margin: 5px auto;
+        background: #850001;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+      .left {
+        margin: 0 50px 0 20px;
+
+        .skill-to-insert-name {
+          font-size: 25px;
+          font-weight: 600;
+          color: white;
+        }
+        .skill-to-insert-type{
+            font-size: 20px;
+            font-weight: 400;
+            color: gray;
+        }
+      }
+        .right{
+          .skill-to-insert-description{
+            font-size: 20px;
+            font-weight: 400;
+            color: white;
+          }
+          .skill-to-insert-link{
+            font-size: 20px;
+            font-weight: 400;
+            color: white;
+          }
+        }
+    }
+    .skill-to-insert:hover{
+      background: #ff0000;
+      cursor: pointer;
+    }
+  }
+}

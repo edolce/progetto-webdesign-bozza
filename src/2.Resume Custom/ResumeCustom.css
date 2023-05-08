@@ -1,0 +1,35 @@
+.dropdown-skills-button {
+  position: absolute;
+  width: 50px;
+  z-index: 3;
+  height: 50px;
+  top: 80px;
+  left: 20px;
+  border: white 2px solid;
+  background: #850000;
+  color: black;
+  font-size: 40px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background-color 200ms, color 200ms;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dropdown-skills-button span {
+  transform: translateY(-5px);
+}
+
+.dropdown-skills-button:hover {
+  background: black;
+  color: white;
+}
+
+.custom-resume-container .block-container:hover {
+  cursor: pointer;
+}
+.custom-resume-container .block-container:hover .remove-overlay {
+  visibility: visible;
+}
+
+/*# sourceMappingURL=ResumeCustom.css.map */

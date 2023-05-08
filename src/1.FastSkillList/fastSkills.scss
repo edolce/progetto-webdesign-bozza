@@ -1,0 +1,49 @@
+.fast-skill-page{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.44);
+    z-index: 0;
+    .container{
+        width: 100%;
+        height: 100%;
+        .body{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .left{
+                width: 30%;
+                height: 100%;
+                background: red;
+            }
+            .right{
+                width: 70%;
+                height: 100%;
+                background: white;
+                .skill-item{
+                    width: 100%;
+                    background: lightblue;
+                    margin-bottom: 10px;
+                    display: flex;
+                    flex-direction: row;
+                }
+                .skill-item-header{
+                    width: 20%;
+                    display: flex;
+                    flex-direction: column;
+                    .title{
+                        color: black;
+                    }
+                    .type{
+                        color: dimgray;
+                    }
+                }
+                .skill-item-body{
+                    width: 80%;
+                }
+            }
+        }
+    }
+}

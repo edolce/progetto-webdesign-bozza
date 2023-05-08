@@ -1,0 +1,73 @@
+.block-adding-popup {
+  position: absolute;
+  top: 0;
+  width: 70%;
+  height: 70%;
+  margin: 7% 15% 15%;
+  background: #00e3b1;
+}
+.block-adding-popup .close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  border: #7a7a7a 2px solid;
+  background: #850001;
+  color: black;
+  font-size: 25px;
+  cursor: pointer;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.block-adding-popup .close-button span {
+  transform: translateY(-9%);
+}
+.block-adding-popup .close-button:hover {
+  background: #ff0000;
+}
+.block-adding-popup .block-adding-popup-content {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+.block-adding-popup .block-adding-popup-content .skill-to-insert {
+  height: 100px;
+  width: 90%;
+  margin: 5px auto;
+  background: #850001;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.block-adding-popup .block-adding-popup-content .skill-to-insert .left {
+  margin: 0 50px 0 20px;
+}
+.block-adding-popup .block-adding-popup-content .skill-to-insert .left .skill-to-insert-name {
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+}
+.block-adding-popup .block-adding-popup-content .skill-to-insert .left .skill-to-insert-type {
+  font-size: 20px;
+  font-weight: 400;
+  color: gray;
+}
+.block-adding-popup .block-adding-popup-content .skill-to-insert .right .skill-to-insert-description {
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+}
+.block-adding-popup .block-adding-popup-content .skill-to-insert .right .skill-to-insert-link {
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+}
+.block-adding-popup .block-adding-popup-content .skill-to-insert:hover {
+  background: #ff0000;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=BlockAddingPopUp.css.map */
